@@ -1,0 +1,294 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  padding-top: -115.5rem;
+}
+.n{
+  flex: 1;
+  text-align: right;
+  
+  
+}
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+  margin-top: .8%;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 16px;
+}
+a{
+  text-decoration: none;
+  color: grey;
+}
+i{
+padding-right: 35px;
+}
+.number{
+  color: red;
+  font-weight: bold;
+}
+.call{
+  color: grey;
+  padding: 4px;
+}
+.help{
+  font-weight: bold;
+  color: black;
+}
+hr{
+  margin-top: -15px;
+}
+.first{
+  color:white;
+  background: red;
+  font-weight: 400;
+  font-size: 2.5rem;
+  height: 0px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+.second{
+  font-weight: 500;
+  font-size: 2.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.container{
+  max-width: 1800px;
+  margin: auto;
+ 
+}
+.cart{
+  font-size: 150%;
+  font-weight: bold;
+  color: orangered;
+  padding: 0px;
+  margin: 5px;
+  
+}
+.secondnav{
+  float: right;
+  padding-top: 18px;
+}
+select{
+  border: none;
+  color: orangered;
+  
+}
+.nav-item{
+  color: white;
+}
+#home{
+  background: red;
+}
+hr{
+  margin: 0px;
+}
+
+
+.col-4 img{
+  width: 150%;
+  
+}
+.sale p1 {
+  font-size: 325%;
+  color: orangered;
+  
+
+  
+}
+
+
+.sale h1{
+  font-size: 980%;
+  color:orangered;
+}
+.sale h6{
+  font-size: 135%;
+  color:black;
+}
+.sale p{
+  
+  font-size: 195%;
+  color:rgb(110, 101, 101);
+}
+.see{
+  
+  border: 1px solid rgb(49, 48, 48);
+  
+
+}
+.see .navbar{
+  padding: 0px;
+}
+.seeall i{
+  color: orangered;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+#cdr{
+  height: 355px;
+  width: 358px;
+}
+.row hr{
+  width: 62%;
+  height: 2px;
+  color: orangered;
+}
+.price{
+  padding-right: 38%;
+}
+
+.adjust{
+  margin: 6px;
+  padding: 0px;
+  margin-top: -66px;
+  padding-bottom: 0px;
+}
+.setting{
+  margin-bottom: 0px;
+}
+.small-container{
+  margin-bottom: 0px;
+  padding-top: 0px;
+}
+.card{
+  margin: 0px 26px 0 ;
+  margin-left: -1px;
+  margin-right: 88px;
+  padding-top:1px ;
+  margin-top: 8px;
+  
+}
+.card-header{
+  background: red;
+  font-weight: bold;
+  color: white;
+}
+.container-fluid{
+  padding-bottom: 0%;
+
+}
+.navbar navbar-expand-lg navbar-dark bg-dark{
+  padding: 0px;
+  line-height: 40px;
+  width:100%;
+}
+ 
+.img-card{
+  width: 25%;
+}
+.col-3 img{
+  
+  width: 200px;
+  height: 200px;
+}
+.bt{
+  color: aliceblue;
+  background: tomato;
+  margin-left: 152px;
+  margin-top: -26px;
+}
+
+  
+  
+
+.col-3{
+  padding: 0px;
+  padding-left: 40px;
+
+}
+.down hr{
+  border: 2px solid rgb(226, 46, 14);
+}
+.menu{
+  width: 100%;
+  background: black;
+  color: aliceblue ;
+  flex: 1;
+}
+.menu ul{
+  margin: 0px;
+  padding: 0%;
+line-height: 40px;
+}
+.menu li{
+  float: left;
+
+}
+.menu ul li a{
+  margin-left: 115px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.cc{
+  margin-left: -100px;
+}
+.s{
+  margin-left: 107px;
+}
+.new ul {
+  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  
+}
+.new li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.new li {
+  
+    float: left;
+    border-right:1px solid #bbb;
+
+}
+.d-flex{
+  margin-left: 0px;
+  padding-left: 830px;
+  margin-top: 4px;
+  
+}
+.b{
+  background: white;
+  padding-right: 0px;
+  margin: 1px -65px;
+  margin-right: 16px;
+  width: 20%;
+  
+  padding: 6px 5px ;
+  border: none;
+}
+.fa {
+  padding-left: 13px;
+  margin: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  float: left;
+  
+  
+}
+.active{
+  background:tomato;
+}
+.leron{
+  margin-left: 20px;
+}
