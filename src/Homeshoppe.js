@@ -1,6 +1,15 @@
 
 import { Component } from "react"; 
 
+import camera from './assets/camera.png'
+import camera2 from './assets/camera2.png'
+import sound from './assets/sound.png'
+import sound1 from './assets/sound1.png'
+import sound2 from './assets/sound2.png'
+import tv from './assets/tv.png'
+import tv2 from './assets/tv2.png'
+import tv3 from './assets/tv3.png'
+import tv4 from './assets/tv4.png'
 
 class Homeshoppe extends Component{
     constructor(props){
@@ -106,7 +115,7 @@ TOYS ,KIDS</li>
 </div>            
                 <div className="col-4" >
                 <div className="cc" >
-                    <img src="tv.png" width="500px" ></img>
+                    <img src={tv} width="500px" ></img>
                 </div>
                 </div>
 
@@ -145,7 +154,7 @@ TOYS ,KIDS</li>
             <div className="row">
                 <div className="col-3">
                     <div className="card">
-                <img src="tv2.png"></img>
+                <img src={tv2}></img>
                 <div className="leron">LOREM IPSUM IS SIMPLY</div>
                 <div className="down"><hr></hr></div>
                 <span className="price">$620.87</span>
@@ -155,7 +164,7 @@ TOYS ,KIDS</li>
                 
                 <div className="col-3">
                 <div className="card">
-                <img src="sound.png"></img>
+                <img src={sound}></img>
                 <div className="leron">LOREM IPSUM IS SIMPLY</div>
                 <div className="down"><hr></hr></div>
                 <span className="price">$899.75</span>
@@ -165,7 +174,7 @@ TOYS ,KIDS</li>
                 </div>
                 <div className="col-3">
                 <div className="card">
-                <img src="camera.png"></img>
+                <img src={camera}></img>
                 <div className="leron">LOREM IPSUM IS SIMPLY</div>
                 <div className="down"><hr></hr></div>
                 <span className="price">$599.00</span>
@@ -174,7 +183,7 @@ TOYS ,KIDS</li>
                 </div>
                 <div className="col-3">
                 <div className="card">
-                <img src="tv3.png"></img>
+                <img src={tv3}></img>
                 <div className="leron">LOREM IPSUM IS SIMPLY</div>
                 <div className="down"><hr></hr></div>
                 <span className="price">$679.87</span>
@@ -200,7 +209,7 @@ TOYS ,KIDS</li>
             <div className="row">
                 <div className="col-3">
                 <div className="card">
-                <img src="camera2.png"></img>
+                <img src={camera2}></img>
                 <div className="leron">LOREM IPSUM IS SIMPLY</div>
                 <div className="down"><hr></hr></div>
                 <span className="price">$849.99</span>
@@ -210,7 +219,7 @@ TOYS ,KIDS</li>
                 
                 <div className="col-3">
                 <div className="card">
-                <img src="sound1.png"></img>
+                <img src={sound1}></img>
                 <div className="leron">LOREM IPSUM IS SIMPLY</div>
                 <div className="down"><hr></hr></div>
                 <span className="price">$599.99</span>
@@ -219,7 +228,7 @@ TOYS ,KIDS</li>
                 </div>
                 <div className="col-3">
                 <div className="card">
-                <img src="tv4.png"></img>
+                <img src={tv4}></img>
                 <div className="leron">LOREM IPSUM IS SIMPLY</div>
                 <div className="down"><hr></hr></div>
                 <span className="price">$799.99</span>
@@ -228,7 +237,7 @@ TOYS ,KIDS</li>
                 </div>
                 <div className="col-3">
                 <div className="card">
-                <img src="sound2.png"></img>
+                <img src={sound2}></img>
                 <div className="leron">LOREM IPSUM IS SIMPLY</div>
                 <div className="down"><hr></hr></div>
                 <span className="price">$899.99</span>
